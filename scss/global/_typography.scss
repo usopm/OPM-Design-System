@@ -1,0 +1,143 @@
+/*
+1px  | 0.06rem
+2px  | 0.13rem
+3px  | 0.19rem
+4px  |  0.3rem
+5px  |  0.3rem
+6px  |  0.4rem
+8px  |  0.5rem
+10px |  0.6rem
+12px |  0.8rem
+14px |  0.9rem
+15px |  0.9rem
+16px |    1rem
+18px |  1.1rem
+20px |  1.3rem
+22px |  1.4rem
+24px |  1.5rem
+25px |  1.6rem
+28px |  1.8rem
+32px |    2rem
+36px |    2rem
+40px |    3rem
+44px |    3rem
+48px |    3rem
+50px |    3rem
+56px |    4rem
+*/
+
+h1 {
+	font-size: 3rem;
+	line-height: auto;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 2rem;
+	line-height: auto;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 1.4rem;
+	line-height: auto;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 1rem;
+	line-height: auto;
+	font-weight: bold;
+}
+
+h5 {
+	font-size: .9rem;
+	line-height: auto;
+	font-weight: bold;
+}
+
+.intro {
+	font-family: $source-sans;
+	font-weight: 300;
+	font-size: 1.4rem;
+	line-height: 162%;
+}
+
+p {
+	font-family: $source-sans;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 162%;
+}
+
+.body2 {
+	font-family: $source-sans;
+	font-weight: normal;
+	font-size: .9rem;
+	line-height: auto;
+}
+
+button {
+	font-family: $source-sans;
+	font-weight: bold;
+	font-size: 1rem;
+	line-height: auto;
+}
+
+a {
+	font-family: $source-sans;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 162%;
+	color: $opm-bold-blue;
+	text-decoration: underline;
+}
+
+label {
+	font-family: $source-sans;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: auto;
+}
+
+.label2 {
+	font-family: $source-sans;
+	font-weight: bold;
+	font-size: 1rem;
+	line-height: auto;
+}
+
+.counter-sm {
+	font-family: $source-sans;
+	font-weight: bold;
+	font-size: 0.9rem;
+	line-height: 1rem;
+}
+
+.counter-md {
+	font-family: $source-sans;
+	font-weight: bold;
+	font-size: 1rem;
+	line-height: 1rem;
+}
+
+.counter-lg {
+	font-family: $source-sans;
+	font-weight: normal;
+	font-size: 1.4rem;
+	line-height: auto;
+}
+
+.title-active {
+	font-family: $source-sans;
+	font-weight: bold;
+	font-size: 1rem;
+	line-height: 1.1rem;
+}
+
+.title-inactive {
+	font-family: $source-sans;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 1.1rem;
+}

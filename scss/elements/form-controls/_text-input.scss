@@ -1,0 +1,72 @@
+textarea {
+	&.usa-input {
+		height: auto;
+	}
+}
+.usa-input {
+	border-radius: 4px;
+	padding: 6px 8px;
+	border: 1px solid $base;
+	background-color: $white;
+	color: $ink;
+	&:focus {
+		box-shadow: 0px 0px 4px 4px $opm-bold-blue;
+		outline: none !important;
+	}
+	&:hover {
+		/*border: 2px solid $ink;*/
+		box-shadow: 0px 0px 0px 2px $ink;
+	}
+	&::placeholder {
+		opacity: 1;
+		color: $ink;
+	}
+}
+.usa-input-group {
+	border-radius: 4px;
+	padding: 6px 8px;
+	border: 1px solid $base;
+	background-color: $white;
+	color: $ink;
+
+	&--error {
+		/*border: 3px solid $error-dark;*/
+		border: 0px;
+		box-shadow: 0px 0px 0px 3px $error-dark;
+	}
+
+	&--success {
+		/*border: 2px solid $opm-green;*/
+		border: 0px;
+		box-shadow: 0px 0px 0px 2px $opm-green;
+	}
+
+	&:focus, &.is-focused {
+		box-shadow: 0px 0px 4px 4px $opm-bold-blue;
+		outline: none !important;
+	}
+	&:hover {
+		/*border: 2px solid $ink;*/
+		box-shadow: 0px 0px 0px 2px $ink;
+	}
+	.usa-input {
+		&:hover {
+			box-shadow: none;
+		}
+		&:focus {
+			box-shadow: none !important;
+			outline: none !important;
+		}
+		&::placeholder {
+			opacity: 1;
+			color: $ink;
+		}
+	}
+}
+.usa-hint {
+	display: block;
+	&--error {
+		color: $error-dark;
+		font-weight: bold;
+	}
+}

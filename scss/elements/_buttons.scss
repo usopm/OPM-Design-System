@@ -1,0 +1,204 @@
+.usa-button {
+    //*********** Primary color (blue, no border).
+    background-color: $opm-blue;
+    border-radius: 10px;
+    color: $white;
+    font-family: $source-sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1rem;
+    margin-bottom: .625rem;
+    padding: .75rem 1.25rem;
+    text-align: center;
+
+    &.usa-button--big {
+        padding: 1rem 1.5rem;
+    }
+
+    &.usa-button--wide {
+        padding: .75rem 1.25rem;
+        width: 17.9375rem;
+    }
+
+    &:disabled,
+    &[aria-disabled="true"] {
+        background-color: $disabled;
+        pointer-events: none;
+    }
+
+    &.usa-button--hover,
+    &:hover {
+        background-color: $opm-blue-400;
+    }
+
+    &.usa-button--unstyled {
+        background: none;
+        color: $ink;
+
+        &.usa-button--hover,
+        &:hover {
+            background: none;
+            border: none;
+            color: $opm-blue;
+        }
+
+        &:not([disabled]):focus,
+        &.usa-focus {
+            box-shadow: none;
+        }
+    }
+
+    // Override _focus.scss.
+    &:not([disabled]):focus,
+    &.usa-focus {
+        outline: none;
+        box-shadow: 0 0 0 3px $white, 0 0 4px 6px $opm-bold-blue;
+    }
+
+    &.usa-button--outline {
+        background-color: transparent;
+        box-shadow: 0 0 0 3px $opm-blue;
+        outline: .5rem solid transparent;
+        color: $opm-blue;
+
+        &:hover,
+        &.usa-button--hover {
+
+            box-shadow: 0 0 0 3px $opm-blue-400;
+            color: $opm-blue-400;
+        }
+
+        &:focus {
+            box-shadow: inset 0 0 0 3px $opm-blue, 0 0 0 3px $white, 0 0 4px 6px $opm-bold-blue;
+        }
+
+        &:disabled,
+        &[aria-disabled=true] {
+            box-shadow: none;
+            color: $white;
+            background-color: $disabled;
+            pointer-events: none;
+        }
+
+        &.usa-button--unstyled,
+        &.usa-button--unstyled:focus {
+            box-shadow: none;
+            border: none;
+            color: $ink;
+        }
+
+        &.usa-button--inverse {
+            color: $white;
+            box-shadow: 0 0 0 2px $white;
+
+            &:focus,
+            &.usa-focus {
+                box-shadow: 0 0 0 3px $white;
+            }
+
+            &:disabled,
+            &[aria-disabled=true] {
+                background-color: transparent;
+                border: none;
+                box-shadow: inset 0 0 0 2px $gray-cool-50;
+                color: $gray-cool-50;
+            }
+
+            &.usa-button--unstyled {
+                box-shadow: none;
+
+                &:focus,
+                &.usa-focus {
+                    box-shadow: 0 0 0 2px $white;
+                    color: $white;
+                    outline: none;
+                }
+            }
+        }
+
+    }
+
+    &.usa-button--accent-cool {
+        background-color: $opm-ltblue-500;
+
+        &:focus,
+        &.usa-focus,
+        &:active,
+        &.usa-button--active {
+            background-color: $opm-ltblue-400;
+        }
+
+        &:hover,
+        &.usa-button--hover {
+            color: $white;
+            background-color: $opm-ltblue-400;
+        }
+
+        &:disabled,
+        &[aria-disabled=true] {
+            color: $white;
+            background-color: $disabled;
+            pointer-events: none;
+        }
+
+        &.usa-button--unstyled {
+            background: none;
+            color: $ink;
+
+            &.usa-button--hover,
+            &:hover {
+                background: none;
+                border: none;
+                color: $opm-blue;
+            }
+
+            &:not([disabled]):focus,
+            &.usa-focus {
+                box-shadow: none;
+            }
+        }
+
+    }
+
+    &.usa-button--accent-warm {
+        background-color: $opm-gold;
+
+        &:focus,
+        &.usa-focus,
+        &:active,
+        &.usa-button--active {
+            background-color: $opm-gold-400;
+        }
+
+        &:hover,
+        &.usa-button--hover {
+            color: $white;
+            background-color: $opm-gold-400;
+        }
+
+        &:disabled,
+        &[aria-disabled=true] {
+            color: $white;
+            background-color: $disabled;
+            pointer-events: none;
+        }
+
+        &.usa-button--unstyled {
+            background: none;
+            color: $ink;
+
+            &.usa-button--hover,
+            &:hover {
+                background: none;
+                border: none;
+                color: $opm-blue;
+            }
+
+            &:not([disabled]):focus,
+            &.usa-focus {
+                box-shadow: none;
+            }
+        }
+    }
+}

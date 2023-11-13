@@ -1,0 +1,43 @@
+.usa-alert {
+  border-left: none;
+  border-radius: 10px;
+  &.usa-alert--info {
+    background-color: $info-light;
+    h4 {
+      color: $info-dark;
+    }
+    &:before {
+      background: url(../img/usa-icons/info-opm.svg) no-repeat center/contain;
+    }
+  }
+  &.usa-alert--warning {
+    background-color: $warning-light;
+    h4 {
+      color: $warning-dark;
+    }
+    &:before {
+      background: url(../img/usa-icons/warning-opm.svg) no-repeat center/contain;
+    }
+  }
+  &.usa-alert--error {
+    background-color: $error-light;
+    h4 {
+      color: $error-dark;
+    }
+    &:before {
+      background: url(../img/usa-icons/error-opm.svg) no-repeat center/contain;
+    }
+  }
+  &.usa-alert--success {
+    background-color: $success-light;
+    h4 {
+      color: $success-dark;
+    }
+    &:before {
+      background: url(../img/usa-icons/check_circle-opm.svg) no-repeat center/contain;
+    }
+  }
+  &.opm-sitewide {
+    border-radius: 0;
+  }
+}

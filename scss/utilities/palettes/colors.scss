@@ -1,0 +1,159 @@
+// Create color variables
+// OPM Primary Colors.
+$opm-blue: #093453;
+$opm-red: #D13138;
+$opm-ltblue: #009ED1;
+$opm-gray: #727477;
+$opm-orange: #D16A00;
+$opm-tan: #C4B595;
+$opm-gold: #E1B424;
+$opm-muted-blue: #527794;
+$opm-green: #008540;
+$opm-bold-blue: #005999;
+
+// Base Colors.
+$white: #FFFFFF;
+$ltgray: #F0F0F0;
+$grey: #c9c9c9;
+$base-light: #DFE1E2;
+$base: #71767A;
+$base-dark: #3D4551;
+$base-overlay: rgba(0, 0, 0, .7);
+$ink: #1B1B1B;
+$black: #000000;
+
+// System Colors.
+$info-light: #E7F6F8;
+$error-light: #F4E3DB;
+$warning-light: #FAF3D1;
+$success-light: #ECF3EC;
+$success: #00A91C;
+$disabled: #C9C9C9;
+$emergency: #9C3D10;
+$red-vivid-60: #B41D39;
+$gray-cool-50: #71767A;
+$violet-vivid-60: #783CB9;
+$violet-vivid-70: #54278F;
+$blue-vivid-60: #07648D;
+$blue-warm-vivid-60: #0050D8;
+$blue-vivid-40: #28A0CB;
+$blue-warm-80: #162E51;
+$blue-30: #73B3E7;
+$blue-10: #D9E8F6;
+$orange-dark: #C05600;
+$info-dark: #2E6276;
+$error-dark: #B50909;
+$success-dark: #446443;
+$warning-dark: #B88100;
+$required: #b50909;
+
+// OPM Light Blue.
+$opm-ltblue-50: #e6f5fa;
+$opm-ltblue-100: #b0e1f1;
+$opm-ltblue-200: #8ad2ea;
+$opm-ltblue-300: #54bee0;
+$opm-ltblue-400: #33b1da;
+$opm-ltblue-500: #009ed1;
+$opm-ltblue-600: #0090be;
+$opm-ltblue-700: #007094;
+$opm-ltblue-800: #005773;
+$opm-ltblue-900: #004258;
+
+// OPM Blue.
+$opm-blue-50: #e6ebee;
+$opm-blue-100: #b3c0ca;
+$opm-blue-200: #8ea2b0;
+$opm-blue-300: #5a778c;
+$opm-blue-400: #3a5d75;
+$opm-blue-500: #093453;
+$opm-blue-600: #082f4c;
+$opm-blue-700: #06253b;
+$opm-blue-800: #051d2e;
+$opm-blue-900: #041623;
+
+// OPM Gold.
+$opm-gold-50: #fcf8e9;
+$opm-gold-100: #f6e8bb;
+$opm-gold-200: #f1dd9a;
+$opm-gold-300: #ebcd6c;
+$opm-gold-400: #e7c350;
+$opm-gold-500: #e1b424;
+$opm-gold-600: #cda421;
+$opm-gold-700: #a0801a;
+$opm-gold-800: #7c6314;
+$opm-gold-900: #5f4c0f;
+
+// Create color classes to set background-color
+.opm-blue { background-color: $opm-blue; }
+.opm-red { background-color: $opm-red; }
+.opm-ltblue { background-color: $opm-ltblue; }
+.opm-gray { background-color: $opm-gray; }
+.opm-orange { background-color: $opm-orange; }
+.opm-tan { background-color: $opm-tan; }
+.opm-gold { background-color: $opm-gold; }
+.opm-muted-blue { background-color: $opm-muted-blue; }
+.opm-green { background-color: $opm-green; }
+.opm-bold-blue { background-color: $opm-bold-blue; }
+
+.white { background-color: $white; }
+.ltgray { background-color: $ltgray; }
+.base-light { background-color: $base-light; }
+.base { background-color: $base; }
+.base-dark { background-color: $base-dark; }
+.base-overlay { background-color: $base-overlay; }
+.ink { background-color: $ink; }
+.black { background-color: $black; }
+.info-light { background-color: $info-light; }
+.error-light { background-color: $error-light; }
+.warning-light { background-color: $warning-light; }
+.success-light { background-color: $success-light; }
+.success { background-color: $success; }
+.disabled { background-color: $disabled; }
+.emergency { background-color: $emergency; }
+.red-vivid-60 { background-color: $red-vivid-60; }
+.gray-cool-50 { background-color: $gray-cool-50; }
+.violet-vivid-60 { background-color: $violet-vivid-60; }
+.violet-vivid-70 { background-color: $violet-vivid-70; }
+.blue-10 { background-color: $blue-10; }
+.blue-30 { background-color: $blue-30; }
+.blue-vivid-40 { background-color: $blue-vivid-40; }
+.blue-vivid-60 { background-color: $blue-vivid-60; }
+.blue-warm-vivid-60 { background-color: $blue-warm-vivid-60; }
+.orange-dark { background-color: $orange-dark; }
+.info-dark { background-color: $info-dark; }
+.error-dark { background-color: $error-dark; }
+.success-dark { background-color: $success-dark; }
+.warning-dark { background-color: $warning-dark; }
+
+.opm-ltblue-50 { background-color: $opm-ltblue-50; }
+.opm-ltblue-100 { background-color: $opm-ltblue-100; }
+.opm-ltblue-200 { background-color: $opm-ltblue-200; }
+.opm-ltblue-300 { background-color: $opm-ltblue-300; }
+.opm-ltblue-400 { background-color: $opm-ltblue-400; }
+.opm-ltblue-500 { background-color: $opm-ltblue-500; }
+.opm-ltblue-600 { background-color: $opm-ltblue-600; }
+.opm-ltblue-700 { background-color: $opm-ltblue-700; }
+.opm-ltblue-800 { background-color: $opm-ltblue-800; }
+.opm-ltblue-900 { background-color: $opm-ltblue-900; }
+
+.opm-blue-50 { background-color: $opm-blue-50; }
+.opm-blue-100 { background-color: $opm-blue-100; }
+.opm-blue-200 { background-color: $opm-blue-200; }
+.opm-blue-300 { background-color: $opm-blue-300; }
+.opm-blue-400 { background-color: $opm-blue-400; }
+.opm-blue-500 { background-color: $opm-blue-500; }
+.opm-blue-600 { background-color: $opm-blue-600; }
+.opm-blue-700 { background-color: $opm-blue-700; }
+.opm-blue-800 { background-color: $opm-blue-800; }
+.opm-blue-900 { background-color: $opm-blue-900; }
+
+.opm-gold-50 { background-color: $opm-gold-50; }
+.opm-gold-100 { background-color: $opm-gold-100; }
+.opm-gold-200 { background-color: $opm-gold-200; }
+.opm-gold-300 { background-color: $opm-gold-300; }
+.opm-gold-400 { background-color: $opm-gold-400; }
+.opm-gold-500 { background-color: $opm-gold-500; }
+.opm-gold-600 { background-color: $opm-gold-600; }
+.opm-gold-700 { background-color: $opm-gold-700; }
+.opm-gold-800 { background-color: $opm-gold-800; }
+.opm-gold-900 { background-color: $opm-gold-900; }

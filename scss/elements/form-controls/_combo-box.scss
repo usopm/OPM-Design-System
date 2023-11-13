@@ -1,0 +1,57 @@
+.usa-combo-box__input {
+    border-radius: 4px;
+    border: 1px solid var(--base-base, $gray-cool-50);
+    background: var(--base-white, $white);
+
+    &:hover {
+        border: 2px solid var(--base-base-ink, $ink);
+    }
+}
+
+.usa-select {
+
+    /* Focus - Bold Blue Blur */
+    input:not([disabled]):focus {
+        box-shadow: 0px 0px 4px 4px $opm-bold-blue;
+
+    }
+
+}
+
+.usa-combo-box__list-option {
+    border-bottom: 0;
+
+    &--focused {
+        outline-style: none;
+    }
+
+    &--selected {
+        background-color: $base-light;
+        border-color: $base-light;
+        color: $ink;
+        outline-style: none;
+    }
+
+}
+
+.usa-combo-box__list {
+
+    [contentEditable=true]:focus,
+    [href]:focus,
+    [tabindex]:focus,
+    iframe:focus {
+        background-color: $base-light;
+        border-color: $base-light;
+        color: $ink;
+        outline-style: none;
+    }
+}
+
+.usa-label--required {
+    color: $ink;
+
+    &:after {
+        content: " *";
+        color: $required;
+    }
+}

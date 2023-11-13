@@ -1,0 +1,20 @@
+.usa-breadcrumb {
+  .usa-breadcrumb__list {
+    .usa-breadcrumb__list-item {
+      &:first-of-type {
+        a {
+          &:before {
+            content: '';
+            width: 23px;
+            height: 20px;
+            background-image: url(../img/usa-icons/home-blue.svg);
+            display: inline-flex;
+            position: relative;
+            margin-right: 0.5rem;
+            bottom: -2px;
+          }
+        }
+      }
+    }
+  }
+}

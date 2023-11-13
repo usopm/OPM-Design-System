@@ -1,0 +1,49 @@
+/* Add icon fill color styles */
+.icon {
+    &-success {
+        fill: $success-dark;
+    }
+
+    &-warning {
+        fill: $warning-dark;
+    }
+
+    &-error {
+        fill: $error-dark;
+    }
+
+    &-info {
+        fill: $info-dark;
+    }
+
+    &-ink {
+        fill: $ink;
+    }
+
+    &-base {
+        fill: $base;
+    }
+
+    &-16 {
+        width: 16px;
+        height: 16px;
+        padding: 1.333px;
+    }
+
+    &-24 {
+        width: 24px;
+        height: 24px;
+        padding: 2px;
+    }
+
+    &-32 {
+        width: 32px;
+        height: 32px;
+        padding: 2.667px;
+    }
+}
+
+// Correct padding on icon prefix/suffix.
+.usa-input-prefix, .usa-input-suffix {
+  padding: 0;
+}
