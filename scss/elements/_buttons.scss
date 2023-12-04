@@ -121,6 +121,7 @@
 
     &.usa-button--accent-cool {
         background-color: $opm-ltblue-500;
+        color: $ink;
 
         &:focus,
         &.usa-focus,
@@ -131,13 +132,13 @@
 
         &:hover,
         &.usa-button--hover {
-            color: $white;
+            color: $ink;
             background-color: $opm-ltblue-400;
         }
 
         &:disabled,
         &[aria-disabled=true] {
-            color: $white;
+            color: $ink;
             background-color: $disabled;
             pointer-events: none;
         }
@@ -163,6 +164,7 @@
 
     &.usa-button--accent-warm {
         background-color: $opm-gold;
+        color: $ink;
 
         &:focus,
         &.usa-focus,
@@ -173,13 +175,13 @@
 
         &:hover,
         &.usa-button--hover {
-            color: $white;
+            color: $ink;
             background-color: $opm-gold-400;
         }
 
         &:disabled,
         &[aria-disabled=true] {
-            color: $white;
+            color: $ink;
             background-color: $disabled;
             pointer-events: none;
         }
