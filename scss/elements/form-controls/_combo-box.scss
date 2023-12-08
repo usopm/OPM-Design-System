@@ -8,12 +8,12 @@
     }
 }
 
-.usa-select {
+.usa-combo-box {
 
     /* Focus - Bold Blue Blur */
     input:not([disabled]):focus {
         box-shadow: 0px 0px 4px 4px $opm-bold-blue;
-
+        outline-style: none;
     }
 
 }
@@ -22,7 +22,9 @@
     border-bottom: 0;
 
     &--focused {
-        outline-style: none;
+      background-color: $opm-bold-blue;
+      outline-style: none;
+
     }
 
     &--selected {
@@ -35,6 +37,10 @@
 }
 
 .usa-combo-box__list {
+  [aria-selected="true"] {
+    background-color: $opm-bold-blue;
+
+  }
 
     [contentEditable=true]:focus,
     [href]:focus,
