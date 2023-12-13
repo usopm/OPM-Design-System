@@ -1,4 +1,20 @@
 .usa-modal {
+  max-width: 44rem;
+
+  &__heading {
+    font-family: $source-sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 1rem auto;
+    max-width: 75%;
+  }
+
+  &__main {
+    text-align: center;
+  }
+
   .usa-button {
     &.usa-modal__close {
       padding:0;
