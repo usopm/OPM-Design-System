@@ -37,6 +37,30 @@
       background: url(../img/usa-icons/check_circle-opm.svg) no-repeat center/contain;
     }
   }
+  &.usa-alert--suspension {
+    background-color: $ltgray;
+    h4 {
+      color: $ink;
+    }
+    &:before {
+      background: url(../img/usa-icons/check_circle-opm.svg) no-repeat center/contain;
+      background: url(/themes/custom/opm/assets/img/usa-icons/info.svg) no-repeat center/contain;
+      width: 2rem;
+      content: "";
+      display: block;
+      height: 3.5rem;
+      left: 0.9166666667rem;
+      position: absolute;
+      top: 0;
+      background: 0 0;
+      background-color: $ink;
+      -webkit-mask: url(/themes/custom/opm/assets/img/usa-icons/info.svg) no-repeat center/contain;
+      mask: url(/themes/custom/opm/assets/img/usa-icons/info.svg) no-repeat center/contain;
+    }
+    .usa-alert__body {
+      padding-left: 3.8333333334rem;
+    }
+  }
   &.opm-sitewide {
     border-radius: 0;
   }
